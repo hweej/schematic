@@ -1,5 +1,5 @@
 =============
-CLI Utilities
+CLI Reference
 =============
 
 .. click:: schematic.__main__:main

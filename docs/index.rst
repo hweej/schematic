@@ -11,6 +11,10 @@ Welcome to Schematic's documentation!
    :caption: Table of Contents:
    
    README
+
+.. toctree::
+   :maxdepth: 2
+   
    cli_reference
 
 .. include:: README.rst
