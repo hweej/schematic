@@ -14,7 +14,7 @@ Welcome to Schematic's documentation!
 
 .. toctree::
    :maxdepth: 2
-
+   
    cli_reference
 
 .. include:: README.rst
