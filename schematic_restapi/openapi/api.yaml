@@ -1,0 +1,46 @@
+openapi: 3.0.0
+info:
+  title: Schematic Rest API
+  version: 0.1.0
+  description: Schematic endpoints
+
+servers:
+  - url: /v1
+paths:
+  /hello_world:
+    get:
+      summary: Hello
+      description: World
+      operationId: schematic_restapi.api.routes.example_route
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  type: string
+                  example:
+                    response_content: hello
+      #   /hello_world/{id}:
+      #     get:
+      #       summary: Hello
+      #       description: World
+      #       operationId: schematic_restapi.api.routes.example_route2
+      #       parameters:
+      #         # Object here to describe
+      #         type: int
+      #       responses:
+      #         '200':
+      #           description: Success
+      #           content:
+      #             application/json:
+      #               schema:
+      #                 type: object
+      #                 items:
+      #                   type: string
+      #                   example:
+      #                     response_content: hello
+
+
